@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import readlineSync from 'readline-sync';
 import { runGame } from '../src/index.js';
 
 const gcd = (num1, num2) => {
