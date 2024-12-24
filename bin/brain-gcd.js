@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import readlineSync from 'readline-sync';
 import { runGame } from '../src/index.js';
 
 const gcd = (num1, num2) => {
@@ -10,7 +9,7 @@ const gcd = (num1, num2) => {
 	return num1;
 }
 
-const gameLogic = () => {
+const getExpression = () => {
 	const num1 = Math.floor(Math.random() * 100);
 	const num2 = Math.floor(Math.random() * 100);
 	const expression = `${num1} ${num2}`;
@@ -18,10 +17,9 @@ const gameLogic = () => {
 	return { expression, correctAnswer };
 };
 
-const playGcdGame = () => {
-	console.log('Find the greatest common divisor of given numbers.');
-
-	runGame(gameLogic);
+const gameLogic = () => {
+        console.log('Find the greatest common divisor of given numbers.');
+        return getExpression();
 };
 
-playGcdGame();
+runGame(gameLogic);
