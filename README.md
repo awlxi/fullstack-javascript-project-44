@@ -4,3 +4,4 @@
  https://asciinema.org/a/IM9tkoTb3dFEsCuRNEnpQska9 (brain-calc)
  https://asciinema.org/a/GX5KX6pOrMhZP2PXyMVJ4wVKF (brain-gcd)
  https://asciinema.org/a/ZsoZUQzWAUVzAEZq1BvFdJ0Jv (brain-progression)
+ https://asciinema.org/a/y61i0sE7iUSMii2CCH21Bzv1D (brain-prime)
