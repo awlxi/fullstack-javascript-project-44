@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { runGame } from '../index.js';
-import { getRandomInRange } from '../utils.js';
+import getRandomInRange from '../utils.js';
 
 const isEven = (number) => number % 2 === 0;
 
