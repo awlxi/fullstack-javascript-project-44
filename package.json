@@ -1,8 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/awlxi/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/awlxi/fullstack-javascript-project-44/actions)",
-  "main": "index.js",
+  "description": "A collection of JavaScript games for training logic and math skills. [![Actions Status](https://github.com/awlxi/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/awlxi/fullstack-javascript-project-44/actions)",
   "type": "module",
   "scripts": {
     "test": "echo \"No tests available\""
