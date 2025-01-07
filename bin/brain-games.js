@@ -2,7 +2,7 @@
 import greetUser from '../src/cli.js';
 
 const main = () => {
-  const userName = greetUser();
+  greetUser();
 };
 
 main();

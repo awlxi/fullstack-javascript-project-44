@@ -2,13 +2,12 @@
 import { runGame } from '../index.js';
 import getRandomInRange from '../utils.js';
 
-const gcd = (a, b) => {
+const gcd = (x, y) => {
+  let a = x;
+  let b = y;
   while (b !== 0) {
-    const temp = b;
-    b = a % b;
-    a = temp;
+    [a, b] = [b, a % b];
   }
-
   return a;
 };
 
