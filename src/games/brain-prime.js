@@ -21,6 +21,6 @@ const getExpression = () => {
 };
 
 export default () => {
-        const rules = 'Answer "yes" if the number is prime. Otherwise answer "no".';
+        const rules = 'Answer "yes" if given number is prime. Otherwise answer "no"';
         runGame(rules, getExpression);
 };
