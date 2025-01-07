@@ -7,7 +7,7 @@ const generateProgression = (length) => {
   const randomValue = getRandomInRange(1, 50);
   const randomStep = getRandomInRange(1, 10);
 
-  for ( let i = 0; i < length; i += 1) {
+  for (let i = 0; i < length; i += 1) {
     const nextProgressionNumber = randomValue + i * randomStep;
     progression.push(nextProgressionNumber);
   }

@@ -16,7 +16,10 @@ const isPrime = (number) => {
 const getExpression = () => {
   const number = getRandomInRange(1, 100);
   const correctAnswer = isPrime(number) ? 'yes' : 'no';
-  return { expression: number, correctAnswer: correctAnswer };
+  return {
+    expression: number,
+    correctAnswer: String(correctAnswer),
+  };
 };
 
 export default () => {

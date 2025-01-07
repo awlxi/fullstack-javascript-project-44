@@ -2,12 +2,14 @@
 import { runGame } from '../index.js';
 import { getRandomInRange } from '../utils.js';
 
-const gcd = (num1, num2) => {
-  while (num2) {
-    [num1, num2] = [num2, num1 % num2];
+const gcd = (a, b) => {
+  while (b !== 0) {
+    const temp = b;
+    b = a % b;
+    a = temp;
   }
 
-  return num1;
+  return a;
 };
 
 const getExpression = () => {
