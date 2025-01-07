@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { runGame } from '../index.js';
+import runGame from '../index.js';
 import getRandomInRange from '../utils.js';
 
 const isPrime = (number) => {
