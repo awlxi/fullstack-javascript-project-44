@@ -1,16 +1,12 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "A collection of JavaScript games for training logic and math skills. [![Actions Status](https://github.com/awlxi/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/awlxi/fullstack-javascript-project-44/actions)",
+  "description": "A collection of JavaScript games for training logic and math skills.",
   "type": "module",
-  "scripts": {
-    "test": "echo \"No tests available\""
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awlxi/fullstack-javascript-project-44.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/awlxi/fullstack-javascript-project-44/issues"
@@ -28,8 +24,8 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@eslint/js": "^9.16.0",
-    "eslint": "^9.16.0",
-    "globals": "^15.12.0"
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0"
   }
 }

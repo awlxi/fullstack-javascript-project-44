@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import runGame from '../index.js';
 import getRandomInRange from '../utils.js';
 
@@ -11,8 +10,7 @@ const calculate = (num1, operator, num2) => {
     case '*':
       return num1 * num2;
     default:
-      console.log(`Unknown operator: ${operator}`);
-      return null;
+      throw new Error(Invalid operator - ${operator});
   }
 };
 
@@ -20,7 +18,8 @@ const getRandomExpression = () => {
   const operators = ['+', '-', '*'];
   const num1 = getRandomInRange(0, 100);
   const num2 = getRandomInRange(0, 100);
-  const operator = operators[Math.floor(Math.random() * operators.length)];
+  const operator = operators[getRandomInRange(0, operators.length - 1)];
+
   const expression = `${num1} ${operator} ${num2}`;
   const correctAnswer = calculate(num1, operator, num2);
 
